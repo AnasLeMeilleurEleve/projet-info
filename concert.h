@@ -22,5 +22,6 @@ void attribuerConcert();
 void terminerConcert();
 void afficherConcertsEnCours();
 void reserverSieges();
+void sauvegardeConcert();
 
 #endif // CONCERT_H

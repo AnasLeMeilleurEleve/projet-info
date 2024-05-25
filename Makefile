@@ -6,7 +6,7 @@ OBJS = main.o manager.o festivalier.o concert.o salle.o utils.o
 all: main
 
 main: $(OBJS)
-		$(CC) $(CFLAGS) -o main $(OBJS)
+		$(CC) $(CFLAGS) -o main $(OBJS) -lncurses
 
 main.o: main.c manager.h festivalier.h
 manager.o: manager.c manager.h salle.h concert.h

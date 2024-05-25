@@ -21,10 +21,12 @@ typedef struct {
 extern Salle salles[MAX_SALLES];
 extern int nombreSalles;
 
+
 void creerSalle();
 void afficherEtatSalles();
 void modifierSalle();
 void afficherPlanSalle(Salle *salle);
+void sauvegardeSalle();
 Salle* findSalleByName(char *nom);
 
 #endif // SALLE_H
